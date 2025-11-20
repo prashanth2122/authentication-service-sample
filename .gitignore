@@ -1,0 +1,49 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+/dist/
+/build/
+
+# Prisma
+prisma/dev.db
+prisma/dev.db-journal
+
+# Keys and secrets
+keys/
+*.pem
+*.key
+*.crt
+
+# VS Code
+.vscode/
+
+# Misc
+*.tgz
+*.tar.gz
+
+# Coverage
+coverage/
+
+# Others
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# TypeScript
+*.tsbuildinfo
